@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories — Jon Dallas</title>
+  <meta name="description" content="Visual scrollystories — click-advance narrative experiences about AI systems, building, and what it all means.">
+  <meta property="og:title" content="Stories — Jon Dallas">
+  <meta property="og:image" content="../../../images/final/blog-450-articles.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root { --bg:#F7F5F1; --text:#1A1917; --amber:#C17B3B; --sage:#5C7A5A; --muted:#8C8880; --white:#FFFFFF; --border:#E5E2DC; --card-bg:#FDFCFA; }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); font-size:16px; line-height:1.6; }
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; background:rgba(247,245,241,0.95); backdrop-filter:blur(8px); border-bottom:1px solid var(--border); padding:0 2rem; height:60px; display:flex; align-items:center; justify-content:space-between; }
+    .nav-logo { font-family:'DM Serif Display',serif; font-size:1.1rem; color:var(--text); text-decoration:none; }
+    .nav-links { display:flex; gap:2rem; list-style:none; align-items:center; }
+    .nav-links a { text-decoration:none; color:var(--muted); font-size:0.875rem; font-weight:500; transition:color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color:var(--text); }
+    .nav-cta { background:var(--amber); color:var(--white)!important; padding:0.5rem 1.25rem; border-radius:6px; font-weight:600!important; }
+
+    .page-hero { padding:8rem 2rem 4rem; max-width:1200px; margin:0 auto; }
+    .eyebrow { font-size:0.75rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:var(--amber); margin-bottom:0.75rem; }
+    .page-hero h1 { font-family:'DM Serif Display',serif; font-size:clamp(2.5rem,5vw,3.5rem); line-height:1.1; letter-spacing:-0.02em; margin-bottom:1rem; }
+    .page-hero p { font-size:1.125rem; color:var(--muted); max-width:520px; }
+
+    .stories-grid { padding:2rem 2rem 6rem; max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(2,1fr); gap:2rem; }
+
+    .story-card { position:relative; border-radius:16px; overflow:hidden; text-decoration:none; display:block; aspect-ratio:16/9; }
+    .story-card img { width:100%; height:100%; object-fit:cover; display:block; filter:brightness(0.65); transition:filter 0.3s, transform 0.4s; }
+    .story-card:hover img { filter:brightness(0.5); transform:scale(1.03); }
+    .story-card-overlay { position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); }
+    .story-card-content { position:absolute; bottom:0; left:0; right:0; padding:2rem; }
+    .story-panels { font-size:0.75rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.5); margin-bottom:0.625rem; }
+    .story-card h2 { font-family:'DM Serif Display',serif; font-size:clamp(1.25rem,2.5vw,1.75rem); line-height:1.2; color:var(--white); text-shadow:0 1px 6px rgba(0,0,0,0.4); margin-bottom:0.625rem; }
+    .story-card p { font-size:0.875rem; color:rgba(255,255,255,0.65); line-height:1.55; }
+    .story-play { position:absolute; top:1.5rem; right:1.5rem; width:44px; height:44px; border-radius:50%; background:rgba(255,255,255,0.15); backdrop-filter:blur(4px); display:flex; align-items:center; justify-content:center; color:var(--white); font-size:1.125rem; border:1px solid rgba(255,255,255,0.2); transition:background 0.2s; }
+    .story-card:hover .story-play { background:rgba(193,123,59,0.8); }
+
+    .story-card.coming-soon { opacity:0.5; cursor:default; }
+    .story-card.coming-soon img { filter:brightness(0.4) saturate(0.5); }
+    .coming-label { position:absolute; top:1.5rem; left:1.5rem; font-size:0.7rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; background:rgba(255,255,255,0.15); color:rgba(255,255,255,0.7); padding:0.25rem 0.625rem; border-radius:4px; }
+
+    footer { background:#141210; padding:2.5rem 2rem; }
+    .footer-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+    .footer-logo { font-family:'DM Serif Display',serif; font-size:1.1rem; color:rgba(255,255,255,0.8); text-decoration:none; }
+    .footer-links { display:flex; gap:1.5rem; list-style:none; }
+    .footer-links a { color:rgba(255,255,255,0.4); font-size:0.875rem; text-decoration:none; transition:color 0.2s; }
+    .footer-links a:hover { color:rgba(255,255,255,0.8); }
+
+    @media(max-width:700px) { .stories-grid { grid-template-columns:1fr; } .nav-links { display:none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">Jon Dallas</a>
+    <ul class="nav-links">
+      <li><a href="../case-studies/index.html">Case Studies</a></li>
+      <li><a href="../blog/index.html">Blog</a></li>
+      <li><a href="index.html" class="active">Stories</a></li>
+      <li><a href="../about/index.html">About</a></li>
+      <li><a href="https://calendly.com/jon-dallas/30min" target="_blank" class="nav-cta">Book a Call</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <p class="eyebrow">Stories</p>
+    <h1>Click-advance narratives.</h1>
+    <p>Behind-the-scenes stories about systems I've built, ideas I've been thinking about, and what it's all like from the inside. Click to advance.</p>
+  </div>
+
+  <div class="stories-grid">
+
+    <a href="450-articles/index.html" class="story-card">
+      <img src="../../../images/final/blog-450-articles.jpg" alt="450 Articles in 48 Hours">
+      <div class="story-card-overlay"></div>
+      <div class="story-play"><i class="ph ph-play"></i></div>
+      <div class="story-card-content">
+        <p class="story-panels">10 panels · Case Study</p>
+        <h2>450 Articles. 48 Hours. Here's How.</h2>
+        <p>The full story of the AI content engine that changed how a property portal publishes content — keyword analysis, private databases, EEAT, and the actual result.</p>
+      </div>
+    </a>
+
+    <div class="story-card coming-soon">
+      <img src="../../../images/final/ai-workflow-abstract.jpg" alt="Coming soon">
+      <div class="story-card-overlay"></div>
+      <span class="coming-label">Coming soon</span>
+      <div class="story-card-content">
+        <p class="story-panels">Coming soon · Practical AI</p>
+        <h2>Why Most AI Projects Fail Before They Start</h2>
+        <p>The patterns I've seen across dozens of AI projects — and the single decision that determines whether they succeed.</p>
+      </div>
+    </div>
+
+    <div class="story-card coming-soon">
+      <img src="../../../images/final/about-workshop.jpg" alt="Coming soon">
+      <div class="story-card-overlay"></div>
+      <span class="coming-label">Coming soon</span>
+      <div class="story-card-content">
+        <p class="story-panels">Coming soon · Personal</p>
+        <h2>From Philosophy Events to AI Systems</h2>
+        <p>How 8 years of running philosophy events in 12 countries made me a better AI engineer.</p>
+      </div>
+    </div>
+
+    <div class="story-card coming-soon">
+      <img src="../../../images/final/hero-workspace.jpg" alt="Coming soon">
+      <div class="story-card-overlay"></div>
+      <span class="coming-label">Coming soon</span>
+      <div class="story-card-content">
+        <p class="story-panels">Coming soon · Practical AI</p>
+        <h2>The Coda.io System Behind My Practice</h2>
+        <p>The actual tools and workflows I use to build, test, and deliver AI systems for clients — from prototype to production.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <a href="../index.html" class="footer-logo">Jon Dallas</a>
+      <ul class="footer-links">
+        <li><a href="../case-studies/index.html">Case Studies</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="../contact/index.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
