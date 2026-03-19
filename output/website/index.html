@@ -238,44 +238,6 @@
       filter: brightness(1.02) contrast(1.02);
     }
 
-    .hero-badge {
-      position: absolute;
-      bottom: 2rem;
-      left: -2rem;
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 0.875rem 1.25rem;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.08);
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .hero-badge-icon {
-      width: 40px;
-      height: 40px;
-      background: #FDF0E3;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--amber);
-      font-size: 1.25rem;
-    }
-
-    .hero-badge-text strong {
-      display: block;
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    .hero-badge-text span {
-      font-size: 0.75rem;
-      color: var(--muted);
-    }
-
     /* ── STATS BAR ── */
     .stats-bar {
       background: var(--text);
@@ -828,7 +790,6 @@
       .hero-actions { justify-content: center; }
       .hero-image { order: -1; padding-top: 0; justify-content: center; }
       .hero-photo-wrap { max-width: 300px; }
-      .hero-badge { left: 0; bottom: 1rem; }
 
       .stats-inner { grid-template-columns: 1fr; }
       .stat-divider { border-left: none; border-top: 1px solid rgba(255,255,255,0.1); }
@@ -885,7 +846,7 @@
   <!-- HERO -->
   <section class="hero" style="padding-bottom: 0;">
     <div class="hero-text">
-      <p class="hero-eyebrow">AI Solutions Architect · Digital Nomad Dad</p>
+      <p class="hero-eyebrow">AI Solutions Architect</p>
       <h1 class="hero-headline">I build AI tools that <em>actually work.</em></h1>
       <p class="hero-sub">Custom AI systems for SMBs — real results, no buzzwords. I've helped clients cut costs by 87%, save 80% of their time, and scale content production from weeks to hours.</p>
       <div class="hero-actions">
@@ -900,13 +861,6 @@
     <div class="hero-image">
       <div class="hero-photo-wrap">
         <img src="../../images/final/jon-hero.jpg" alt="Jon Dallas" loading="eager">
-        <div class="hero-badge">
-          <div class="hero-badge-icon"><i class="ph ph-map-pin"></i></div>
-          <div class="hero-badge-text">
-            <strong>Digital Nomad Dad</strong>
-            <span>Chiang Mai · Harare · Cape Town · Baltimore</span>
-          </div>
-        </div>
       </div>
     </div>
   </section>
