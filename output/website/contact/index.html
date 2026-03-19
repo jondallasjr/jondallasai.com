@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Jon Dallas</title>
+  <meta name="description" content="Book a free 30-minute consultation, send a message, or subscribe to the newsletter.">
+  <meta property="og:title" content="Contact Jon Dallas">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg:#F7F5F1; --text:#1A1917; --amber:#C17B3B; --sage:#5C7A5A; --muted:#8C8880; --white:#FFFFFF; --border:#E5E2DC; --card-bg:#FDFCFA; }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); font-size:16px; line-height:1.6; }
+
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; background:rgba(247,245,241,0.95); backdrop-filter:blur(8px); border-bottom:1px solid var(--border); padding:0 2rem; height:60px; display:flex; align-items:center; justify-content:space-between; }
+    .nav-logo { font-family:'DM Serif Display',serif; font-size:1.1rem; color:var(--text); text-decoration:none; }
+    .nav-links { display:flex; gap:2rem; list-style:none; align-items:center; }
+    .nav-links a { text-decoration:none; color:var(--muted); font-size:0.875rem; font-weight:500; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--text); }
+    .nav-cta { background:var(--amber); color:var(--white)!important; padding:0.5rem 1.25rem; border-radius:6px; font-weight:600!important; }
+
+    .page-hero { padding:8rem 2rem 4rem; max-width:860px; margin:0 auto; }
+    .eyebrow { font-size:0.75rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:var(--amber); margin-bottom:0.75rem; }
+    .page-hero h1 { font-family:'DM Serif Display',serif; font-size:clamp(2.5rem,5vw,3.5rem); line-height:1.1; letter-spacing:-0.02em; margin-bottom:1rem; }
+    .page-hero p { font-size:1.125rem; color:var(--muted); max-width:540px; }
+
+    .contact-grid { padding:0 2rem 6rem; max-width:860px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
+
+    .contact-card { background:var(--card-bg); border:1px solid var(--border); border-radius:14px; padding:2rem; }
+    .contact-card.full { grid-column:span 2; }
+    .contact-card.dark { background:var(--text); border-color:transparent; }
+
+    .card-label { font-size:0.7rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin-bottom:1.25rem; }
+    .contact-card.dark .card-label { color:rgba(255,255,255,0.4); }
+
+    .card-icon { width:48px; height:48px; background:#FDF0E3; border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--amber); font-size:1.5rem; margin-bottom:1rem; }
+    .contact-card.dark .card-icon { background:rgba(193,123,59,0.15); }
+
+    .contact-card h2 { font-family:'DM Serif Display',serif; font-size:1.375rem; margin-bottom:0.625rem; }
+    .contact-card.dark h2 { color:var(--white); }
+    .contact-card p { font-size:0.9375rem; color:var(--muted); line-height:1.65; margin-bottom:1.5rem; }
+    .contact-card.dark p { color:rgba(255,255,255,0.55); }
+
+    .btn-amber { display:inline-flex; align-items:center; gap:0.5rem; background:var(--amber); color:var(--white); text-decoration:none; padding:0.75rem 1.5rem; border-radius:8px; font-weight:600; font-size:0.9rem; transition:opacity 0.2s; }
+    .btn-amber:hover { opacity:0.88; }
+
+    .btn-outline { display:inline-flex; align-items:center; gap:0.5rem; background:transparent; color:var(--text); text-decoration:none; padding:0.75rem 1.5rem; border-radius:8px; font-weight:500; font-size:0.9rem; border:1.5px solid var(--border); transition:border-color 0.2s; }
+    .btn-outline:hover { border-color:var(--text); }
+
+    /* Contact form */
+    .form-group { margin-bottom:1.25rem; }
+    .form-group label { display:block; font-size:0.8125rem; font-weight:600; color:var(--text); margin-bottom:0.5rem; }
+    .form-group input, .form-group textarea, .form-group select {
+      width:100%; padding:0.75rem 1rem; border-radius:8px; border:1.5px solid var(--border);
+      background:var(--white); color:var(--text); font-family:'Inter',sans-serif; font-size:0.9375rem;
+      outline:none; transition:border-color 0.2s;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color:var(--amber); }
+    .form-group textarea { height:120px; resize:vertical; }
+    .form-group select { cursor:pointer; }
+    .form-row { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+
+    .form-submit { width:100%; padding:0.875rem; background:var(--amber); color:var(--white); border:none; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.9375rem; font-weight:600; cursor:pointer; transition:opacity 0.2s; }
+    .form-submit:hover { opacity:0.88; }
+
+    .form-success { display:none; text-align:center; padding:2rem; }
+    .form-success i { font-size:2.5rem; color:var(--sage); display:block; margin-bottom:1rem; }
+    .form-success p { color:var(--muted); }
+
+    /* Newsletter */
+    .newsletter-form { display:flex; flex-direction:column; gap:0.875rem; }
+    .newsletter-form input { padding:0.75rem 1rem; border-radius:8px; border:1.5px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.08); color:var(--white); font-family:'Inter',sans-serif; font-size:0.9rem; outline:none; transition:border-color 0.2s; }
+    .newsletter-form input::placeholder { color:rgba(255,255,255,0.3); }
+    .newsletter-form input:focus { border-color:rgba(255,255,255,0.4); }
+    .newsletter-form button { padding:0.75rem 1.5rem; border-radius:8px; background:var(--amber); color:var(--white); font-family:'Inter',sans-serif; font-size:0.9rem; font-weight:600; border:none; cursor:pointer; transition:opacity 0.2s; }
+    .newsletter-form button:hover { opacity:0.88; }
+    .newsletter-note { font-size:0.75rem; color:rgba(255,255,255,0.3); }
+    .newsletter-success { display:none; color:rgba(255,255,255,0.7); font-size:0.9rem; padding:1rem 0; }
+
+    /* Links */
+    .link-list { list-style:none; display:flex; flex-direction:column; gap:0.875rem; }
+    .link-list a { display:flex; align-items:center; gap:0.875rem; text-decoration:none; color:var(--text); font-size:0.9375rem; font-weight:500; transition:color 0.2s; padding:0.875rem; border:1px solid var(--border); border-radius:10px; background:var(--bg); }
+    .link-list a:hover { color:var(--amber); border-color:var(--amber); }
+    .link-list a i { font-size:1.25rem; color:var(--amber); }
+
+    footer { background:#141210; padding:2.5rem 2rem; }
+    .footer-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+    .footer-logo { font-family:'DM Serif Display',serif; font-size:1.1rem; color:rgba(255,255,255,0.8); text-decoration:none; }
+    .footer-links { display:flex; gap:1.5rem; list-style:none; }
+    .footer-links a { color:rgba(255,255,255,0.4); font-size:0.875rem; text-decoration:none; transition:color 0.2s; }
+    .footer-links a:hover { color:rgba(255,255,255,0.8); }
+
+    @media(max-width:760px) {
+      .contact-grid { grid-template-columns:1fr; }
+      .contact-card.full { grid-column:span 1; }
+      .form-row { grid-template-columns:1fr; }
+      .nav-links { display:none; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">Jon Dallas</a>
+    <ul class="nav-links">
+      <li><a href="../case-studies/index.html">Case Studies</a></li>
+      <li><a href="../blog/index.html">Blog</a></li>
+      <li><a href="../stories/index.html">Stories</a></li>
+      <li><a href="../about/index.html">About</a></li>
+      <li><a href="https://calendly.com/jon-dallas/30min" target="_blank" class="nav-cta">Book a Call</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <p class="eyebrow">Contact</p>
+    <h1>Let's talk.</h1>
+    <p>Have an AI or automation challenge? Want to collaborate? Or just curious what's possible? I'm happy to chat.</p>
+  </div>
+
+  <div class="contact-grid">
+
+    <!-- Book a call -->
+    <div class="contact-card">
+      <div class="card-icon"><i class="ph ph-calendar-blank"></i></div>
+      <p class="card-label">Free Consultation</p>
+      <h2>Book a 30-minute call</h2>
+      <p>The best first step. We'll talk through your situation and I'll give you an honest take on whether and how AI can help. No pitch. No pressure.</p>
+      <a href="https://calendly.com/jon-dallas/30min" target="_blank" class="btn-amber">
+        <i class="ph ph-calendar-blank"></i> Schedule on Calendly
+      </a>
+    </div>
+
+    <!-- Links -->
+    <div class="contact-card">
+      <p class="card-label">Find me</p>
+      <ul class="link-list">
+        <li><a href="https://www.linkedin.com/in/jonathandallasjr/" target="_blank"><i class="ph ph-linkedin-logo"></i> LinkedIn — /in/jonathandallasjr</a></li>
+        <li><a href="https://github.com/jondallasjr" target="_blank"><i class="ph ph-github-logo"></i> GitHub — /jondallasjr</a></li>
+        <li><a href="https://www.upwork.com/freelancers/~01fbb04712691c39bf" target="_blank"><i class="ph ph-briefcase"></i> Upwork Profile</a></li>
+        <li><a href="mailto:jondallasjr@gmail.com"><i class="ph ph-envelope"></i> jondallasjr@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact form -->
+    <div class="contact-card full">
+      <p class="card-label">Send a message</p>
+      <div id="contact-form-wrap">
+        <form id="contact-form" data-coda-endpoint="">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="project-type">What kind of project? (optional)</label>
+            <select id="project-type" name="project-type">
+              <option value="">Select one...</option>
+              <option>AI Agent / Automation</option>
+              <option>Coda.io System</option>
+              <option>SEO Content System</option>
+              <option>Full-Stack Development</option>
+              <option>Consultation / Strategy</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about what you're working on..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send message</button>
+        </form>
+      </div>
+      <div class="form-success" id="contact-success">
+        <i class="ph ph-check-circle"></i>
+        <p>Got it! I'll be in touch within 48 hours.</p>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="contact-card dark full">
+      <div class="card-icon"><i class="ph ph-envelope-simple"></i></div>
+      <p class="card-label">Newsletter</p>
+      <h2>Practical AI, weekly.</h2>
+      <p>Real implementation stories, tool breakdowns, and honest takes on what's working in AI right now. No fluff, no hype. Unsubscribe anytime.</p>
+      <form class="newsletter-form" id="newsletter-form" data-coda-endpoint="">
+        <input type="text" name="firstName" placeholder="First name" autocomplete="given-name">
+        <input type="email" name="email" placeholder="Email address" required autocomplete="email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="newsletter-success" id="newsletter-success">
+        <i class="ph ph-check-circle"></i> You're in! First issue coming soon.
+      </div>
+      <p class="newsletter-note" style="margin-top:1rem;">No spam. Unsubscribe with one click.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <a href="../index.html" class="footer-logo">Jon Dallas</a>
+      <ul class="footer-links">
+        <li><a href="../case-studies/index.html">Case Studies</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    // Contact form
+    document.getElementById('contact-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const endpoint = this.dataset.codaEndpoint;
+      const data = { name: this.name.value, email: this.email.value, projectType: this['project-type'].value, message: this.message.value };
+      if (endpoint) {
+        try { await fetch(endpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data) }); }
+        catch(err) { console.warn(err); }
+      }
+      document.getElementById('contact-form-wrap').style.display = 'none';
+      document.getElementById('contact-success').style.display = 'block';
+    });
+
+    // Newsletter form
+    document.getElementById('newsletter-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const endpoint = this.dataset.codaEndpoint;
+      const data = { firstName: this.firstName.value, email: this.email.value, source: 'contact' };
+      if (endpoint) {
+        try { await fetch(endpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data) }); }
+        catch(err) { console.warn(err); }
+      }
+      this.style.display = 'none';
+      document.getElementById('newsletter-success').style.display = 'block';
+    });
+  </script>
+
+</body>
+</html>

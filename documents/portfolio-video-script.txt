@@ -1,0 +1,280 @@
+JON DALLAS
+AI Solutions Architect
+
+https://www.loom.com/share/7d03273fb1324f4494653277a97172e5?sid=3f066de7-dc66-4851-87df-de49c409a7d7
+
+DEVELOPMENT
+WORKSHOPS
+
+
+WORKSHOPS
+250+
+GUESTS
+8,000+
+
+250+ Workshops
+8,000+ Guests
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORKSHOP TESTIMONIALS
+"Well prepared with fantastic presentations… Jon understands his subject matter well and can present information in a digestible way." -Mae Constance
+"Jon is very knowledgeable, encouraging, and enthusiastic." -Tyler Cazole
+"Jon does an excellent job of making people feel welcomed, connected, and at ease...His communication skills are concise and follow a logical pattern that is easy to understand." -Haley Purvis
+
+DEVELOPMENT SKILLS
+Full-Stack
+JavaScript/TypeScript/React/Node.js
+Python
+API Integration
+Chrome Extensions
+
+Low-Code
+Coda.io (Expert, 20+ enterprise systems)
+Custom Coda Packs (7 packs; 200K+ monthly invocations)
+Data Pipeline & Workflow Automation
+AI Engineering & Integration
+LLM Integration (OpenAI, Anthropic)
+Custom AI Agents & RAG Systems
+Advanced Prompt Engineering & Chaining
+Vision & Voice API Implementation
+
+Data & Analytics
+Web Scraping & Data Extraction
+SQL Database Design
+Analytics Integration (GSC, ahrefs, GA)
+
+RESUME REWRITER
+Client: Career Platform
+Product: Web App
+Features
+Parse resume
+Scrape LinkedIn profile
+Determine target job
+Scrape relevant live job posts
+Determine relevant keywords & metrics
+Send follow-up questions email
+Apply dynamic writing guidelines
+Rewrite the resume
+Perform QA checks
+Results
+87% cost reduction ($240 to 30 per rewrite)
+15% conversion rate (from free to paid)
+Resume Bean: AI-Powered Resume Critique & Rewrite Platform
+Overview
+Resume Bean is a fully automated, multi-layered AI system that revolutionizes the resume review and optimization process. The platform provides free resume critiques with actionable insights and offers paid, comprehensive resume rewrites—achieving a 15% conversion rate from free to paid services with 100% customer satisfaction across 30+ resumes.
+Business Impact
+87% Cost Reduction: Decreased internal costs per resume rewrite from $240 to $30
+15% Conversion Rate: Successfully converted free critique users to paid rewrite customers
+100% Customer Satisfaction: Perfect satisfaction rate across all completed rewrites
+Operational Efficiency: Dramatically reduced manual effort required for resume analysis and rewriting
+Technical Implementation
+The system employs a sophisticated 58-table relational database architecture that orchestrates a complex workflow:
+Data Collection & Analysis
+Resume Parsing Engine: Automatically extracts and structures data from uploaded resumes regardless of format
+LinkedIn Profile Scraper: Gathers supplementary career information to identify missing achievements and experiences
+Job Posting Analysis: Scrapes relevant job postings based on target roles to identify critical skills and qualifications
+ATS Keyword Determination: Identifies applicant tracking system (ATS) keywords essential for resume visibility
+Intelligent Processing
+Context-Aware Prompt Chaining: Applies specific writing guidelines based on career level, industry, job relevance, and current resume quality
+Dynamic Follow-Up Generation: Automatically creates tailored questionnaires to gather missing metrics and achievements
+Output Generation
+Tailored Content Creation: Generates optimized content that balances ATS requirements with human readability
+Multi-Stage QA Process: Performs automated quality assurance checks for accuracy, formatting, and writing guideline adherence
+Google Docs Integration: Seamlessly exports finalized resumes with embedded comments suggesting further customizations
+Tech Stack
+AI/ML: OpenAI & Anthropic APIs (Claude) for content generation and analysis
+Backend: Coda.io for low-code database architecture and workflow management
+Document Processing: PDF.js for resume parsing and extraction
+Data Collection: Custom web scrapers for LinkedIn profiles and job postings
+APIs: Google Docs API for document generation and delivery
+Workflow Visualization
+Initial Submission: User uploads resume and completes basic questionnaire
+Free Critique Generation: System analyzes resume structure, content, and ATS compatibility
+Conversion: User receives free critique with option to purchase full rewrite service
+Enhanced Data Collection: For paid customers, system scrapes additional information and generates follow-up questions
+Intelligent Rewrite: System applies appropriate writing guidelines based on user profile and job targets
+Delivery & Feedback: User receives optimized resume with embedded improvement recommendations
+Future Development
+Integration of real-time job market analytics to provide industry-specific optimization tips
+Enhanced visualization of "before/after" metrics to better illustrate improvements
+Development of an interview preparation module based on the optimized resume content
+
+
+SEO ARTICLE GENERATOR & CMS
+Client: Property Portal
+Product: Web App
+Features
+Identify high-ROI keyword
+Scrape high-ranking competitor articles
+Analyze & identify gaps
+Smart select metrics from private DB
+Gather location-specific info
+Apply dynamic writing guidelines
+Perform QA checks
+Track status and performance metrics
+Results
+450 articles in 48 hours
+Avg. +2 Google ranking increase in 6 months
+
+
+PROPERTY DESCRIPTION GENERATOR 
+Client: Real estate agency
+Product: Google Chrome Extension
+Features
+Analyze images
+Scrape webpage
+Determine property type, condition, materials, etc.
+Apply Dynamic writing guidelines
+Generate description
+QA Check
+Results
+80% faster (Avg. 45 to 9 minutes each)
+Improved quality and brand consistency
+
+Faster
+Cheaper
+MVP in hours, not months
+Prototype, test, debug, iterate, & perfect
+LOW-CODE
+
+EFFECTIVE AI IMPLEMENTATION
+I’m a nerd and I really love helping teams implement AI effectively - in a way that actually makes the product better, while also eliminating the 80% boring administrative slog; to give teams back the time they need for work that’s creative and meaningful.
+If that sounds interesting, I’d love to connect.
+
+FREE Consultation
+
+AI CONTENT ENGINE
+Case Study
+
+CLIENT CHALLENGE
+Property portal
+Largest property index
+Consistently ranked 2-6th position on Google
+Unfocused blog, no SEO direction
+No expertise in modern Google ranking factors (e.g. EEAT)
+
+BEYOND CHATGPT
+Wanted actually useful content (no AI slop) 
+Keyword guidance
+Private database connection
+SEO & EEAT-optimization
+Real-time Google maps data
+Consistent brand voice
+CMS
+Avoid AI Slop: Wanted a long-term, high-quality solution. Genuinely useful content with proprietary insights, not generic AI text.
+Keyword Guidance: Determine which keywords to target (high-volume, low-competition opportunities within domain space).
+Private Database Access: Client had DB with reams of local property data. Wanted unique content competitors can't replicate.
+SEO & EEAT-Optimized: Automatically follow best modern SEO practices (no keyword stuffing) including EEAT (Experience, Expertise, Authority, and Trust) signals.
+Real-Time Google Maps: Real-time location data via Maps API
+CMS: Needed to track the content workflow progress and performance metrics.
+Consistent Brand Voice: Avoid generic AI writing style.
+
+Solution
+Custom web app
+Custom AI workflow 
+Integrated CMS
+Identify high-ROI keywords
+Scrape top-ranking competitor articles
+Analyze existing articles & identify gaps
+Smart select metrics from private DB
+Gather location-specific info
+Apply dynamic writing guidelines
+Perform QA checks
+Track status and performance metrics
+GSC/ahrefs Integration: Identifies high-ROI keywords
+SerpAPI + Scrapestack: Scrapes & analyzes top competitor articles on Google
+Client’s DB Integration: AI determines relevant metrics and generates SQL queries
+Google Maps API: Retrieves location-specific data
+Dynamic Writing Guidelines: Keep consistent brand voice, adapt to content type, topic, and platform
+QA System: Automatically checks for accuracy, keywords, EEAT, & brand voice
+Production Workflow Tracking: Tracks status from idea to publication
+Performance Dashboard: Tracks each article’s traffic, CTR, rank, etc. via GSC
+
+
+
+450+ articles in < 48 hours
+Avg. +2 ranking in 6 months
+Reduced content production costs and time-to-publish
+"Genuinely amazing. Jheesh, well done. And thank you very much. Super chuffed with this."
+RESULTS
+
+Coda.io
+Google Search Console API
+ahrefs API
+SerpAPI
+Scrapestack API
+Google Maps API
+Property Database API (custom-built)
+Anthropic Claude API
+JSON
+TECH STACK
+
+
+KEY LEARNINGS
+EEAT Integration is Critical
+Proprietary Data Creates Unique Value
+Low-Code Prototyping Accelerates Development
+AI Systems Need Human Oversight
+Structured Output Formats Improve Reliability
+EEAT Integration is Critical: Google's emphasis on Experience, Expertise, Authoritativeness, and Trustworthiness has made generic AI-generated content less effective, necessitating systems that deliberately incorporate these signals
+Proprietary Data Creates Unique Value: The most valuable content combines publicly available information with unique insights only available to the client
+Low-Code Prototyping Accelerates Development: Building the initial proof-of-concept in Coda.io allowed for rapid iteration and validation before committing to full production development
+AI Systems Need Human Oversight: While the system automates much of the content creation process, the final human approval step remains essential for quality control
+Structured Output Formats Improve Reliability: Having Claude return responses in JSON format significantly improved parsing reliability and system stability
+
+
+RESUME REWRITER
+Case Study
+
+
+
+PERSONAL
+
+
+
+
+
+
+
+
+
+And we tear apart the beliefs that tear us apart. 
+
+2017
+FIRST EVENT
+276
+EVENTS
+8,443
+GUESTS
+12
+CHAPTERS
+Since March 2017 we’ve hosted more than 200 events for more than 8,000 guests in 8 chapters 
+
+HANOI, VIETNAM
+DANANG, VIETNAM
+SINGAPORE
+HO CHI MINH CITY, VIETNAM
+In Hanoi, Danang, Cho Chi Minh City, Sinapore, 
+
+PAI, THAILAND
+CHIANG MAI, THAILAND
+BALI, INDONESIA
+KOH PHANGAN, THAILAND
+Pai, Chiang Mai, Koh Phangan, and online! 
+
+OAKLAND, CALIFORNIA
+ONLINE
+HARARE, ZIMBABWE
+CAPE TOWN, SOUTH AFRICA
+We have online events and new chapters opening now in Oakland, Taipei, and Cape Town

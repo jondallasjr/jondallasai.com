@@ -1,0 +1,143 @@
+LinkedIn 
+
+Jonathan Scott Dallas Jr 
+
+Senior Coda Developer at SimplaDocs | Founder of Thought Jam Events | TEDx Speaker
+
+
+I build custom AI tools for SMBs that deliver rapid ROI through strategic use of LLMs, RAG, low-code MVPs, and full-stack development. I've designed and hosted 250+ workshops for 8,000+ guests across 12 cities on AI, blockchain, surveillance capitalism, social media, and more.
+
+🚀 Client Success Stories:
+• 87% cost reduction in content production ($240 → $30) through AI automation
+• 80% time savings in property listings (45min → 9min) via custom AI tools
+• 22% organic traffic growth using AI SEO/EEAT optimization
+• 15% free-to-paid conversion rate on AI-powered platforms
+
+🛠️ Technical Expertise:
+• AI: LLM Integration, RAG Systems, Advanced Prompt Engineering and Chaining
+• Full-Stack: React, Node.js, Python, TypeScript
+• Data/Cloud: Scraping, SQL, R, AWS, Google Cloud, GDPR compliance
+• APIs: OpenAI, Anthropic, Google AI, Google Workspace, ahrefs, LinkedIn
+• Low-Code: Coda.io Expert, 15K+ monthly invocations across 5 custom packs
+
+🏆 Tesimonials 
+• "Well prepared with fantastic presentations, overloaded with information and delivered in a beautifully articulated manner. I find Jon to be very enjoyable to listen to as he understands his subject matter well and can present information in a digestible way for his audience. Thanks again Jon, I will be calling you for future courses!" -Mae Constance, Client
+• "Jon does an excellent job of making people feel welcomed, connected, and at ease. He has a way with people that is unparalleled to anybody I’ve ever met. He navigates language barriers, varying degrees of extraversion, and different levels of experience, seamlessly. His communication skills are concise and follow a logical pattern that is easy to understand." -Haley Purvis, Workshop Attendee
+• "Jon has so much kindness, compassion, and love within him... I have learnt lots from him and I’m sure he will inspire many more people wherever he goes." -Thuỷ Nguyen, Workshop Attendee
+• "Jon is very knowledgeable, encouraging, and enthusiastic." -Tyler Cazole, Workshop Attendee
+
+💻 Development Approach: 
+My development approach maximizes speed and ROI: I rapidly prototype in low-code (Coda.io) to validate multi-step AI workflows, RAG systems, and API integrations with minimal risk and near-immediate feedback, then scale to production-ready React/Node.js applications.
+
+11:024
+384'
+I'm looking for...
+Rohan Mahtani in • 1st
+follow for 80% great career advice, 20% satire
+--• P.S. Want an expert resume or LinkedIn review for free?
+Use Resume Worded — the Al tool used by millions of smart professionals
+February 12, 2025, Rohan managed Jon Scott directly
+Jon was instrumental in transforming how Resume Worded operated behind the scenes. What started as one process improvement project quickly evolved into him becoming our operational backbone — he took our content management from a manual, error-prone process to a streamlined system that allowed us to scale significantly. Not only did this save our team countless hours, but it also dramatically reduced errors and inconsistencies in our workflow.
+What impressed me most was how quickly he picked up new technical skills. When we needed custom solutions, instead of saying "we should hire a developer," he'd dive in and learn whatever was needed to build it himself. He built several programmatic tools that automated complex workflows, and even helped us launch an entirely new Al-powered resume services product from the ground up.
+I especially appreciated how he embraced Al tools early on, using them strategically to amplify our team's capabilities rather than just jumping on the trend. He managed our contractor team with the perfect balance of clear expectations and flexibility, and consistently delivered high-quality work even as priorities shifted.
+Thanks to Jon, we now have GREAT systems and processes that will serve the company well for years to come. Any company looking to build custom Al solutions or internal tools would be lucky to work with him - he's got both the technical chops and the business acumen to deliver real results.
+2
+Home
+Video
+My Network
+Notifications
+Jobs
+
+11:03
+^
+381'
+Projects
+Al Agent - Resume Critique and Rewrite
+Platform
+Associated with Jon Dallas AI, LLC
+A multi-layered agentic Al platform that automates resume critiques and rewrites. Achieved 15% free-to-paid conversion rate and reduced operational costs by 87% ($240→$30). The system parses client's resume, asks follow-up questions, scrapes matching Linkedln job posts, analyzes ATS keywords, identifies optimization opportunities, determines appropriate writing guidelines, and generates a perfectly tailored resume rewrite through custom prompt chains.
+Skills: Al Agents, Resume Writing, +3 skills
+Live Site
+Al Agent - SEO/EEAT Content Generator
+③
+Associated with Propertybook.co.zw
+An Al agent, built in low-code on Coda.io, that generates high-quality SEO/EEAT articles quickly. The agent automatically determines relevant high-traffic keywords and search intent, searches for and scrapes existing competitor content, determines relevant queries and gathers metrics from the client's private database, determines relevant EEAT details, then executes prompt chains to generate and QA-check an SEO/EEAT-optimized article. Client generated 450+ in 2 days.
+Skills: Artificial Intelligence (Al), Al Agents, +3 skills
+Demo Video
+Home
+Video
+My Network
+2
+Notifications
+Jobs
+
+11:044
+^
+394'
+Projects
+Dev Tool - Coda Doc Scraper
+Streamlined React application that simplifies the process of extracting and transforming data from Coda docs. This tool addresses a common pain point for Coda power users and developers who need to efficiently migrate or analyze data across multiple tables.
+Key Features:
+- ﻿﻿Dynamic table selection with search functionality
+- ﻿﻿Configurable data fetching (columns only, single row, or full table)
+- ﻿﻿Customizable attribute filtering for both columns and rows
+- ﻿﻿Real-time JSON preview with copy functionality
+- ﻿﻿Secure API token handling using localStorage
+- ﻿﻿Error handling and loading states
+- ﻿﻿Responsive Ul with Tailwind CSS
+Tech Stack:
+- ﻿﻿React 19
+- ﻿﻿Tailwind CSS
+- ﻿﻿Axios for API integration
+- ﻿﻿Custom hooks and components
+- ﻿﻿Heroicons and Lucide React for Ul elements
+The application focuses on developer experience with features like persistent configuration, clear error messaging, and a collapsible welcome guide. It's built with scalability in mind, utilizing modern React patterns and modular component architecture.
+This tool exemplifies my approach to building practical solutions that enhance workflow efficiency while maintaining security and user experience. It's particularly valuable for teams working with Coda's document management system who need to perform data analysis or migrations
+Skills: Full-Stack Development, Coda, +2 skills
+Home
+Video
+My Network
+2
+Notifications
+Jobs
+
+Experience (10)
++
+Senior Developer
+SimplaDocs • Contract
+Jul 2025 - Present • 9 mos
+Ventura, California, United States • Remote Design and build custom web applications and business tools on Coda.io - transforming client objectives into sophisticated project management and workflow systems.
+Develop custom Coda utility and API packs integrating Supabase, PostgreSQL, MongoDB, AWS, plus Al tools (Claude, ChatGPT, ElevenLabs).
+Lead full-lifecycle development: discovery through delivery. Build client rapport, set expectations, translate complex business needs into elegant solutions.
+Grateful for SimplaDocs' trust and creative freedom to deliver systems with real impact.
+• Coda, Coda Packs and +6 skills
+
+Founder
+Jon Dallas AI, LLC • Self-employed
+Feb 2023 - Present • 3 yrs 2 mos
+I help SMBs achieve 80%+ efficiency gains through custom Al tools combining LLMS, RAG, and strategic automation. Deliver solutions across content production, property management, and digital marketing through rapid prototyping and production-ready development.
+Client Highlights:
+- ﻿﻿Resume Worded: Built Al system with 15% conversion rate through 58-table architecture
+- ﻿﻿Pam Golding Properties: Reduced listing time 80% via Al-powered Chrome extension
+- ﻿﻿Propertybook: Developed RAG system generating
+- 450+ articles in 48 hours
+
+Real Talk Philosophy LLC • Self-employed
+Mar 2017 - Present • 9 yrs 1 mo
+Hybrid
+Real Talk Philosophy entertains while actively combating social and political polarization. We create fun, interactive, multimedia, community events exploring all sides of contemporary divisive issues (like masculinity, veganism, gender pronouns, immigration, and many more) with facilitated small-group discussions, impartial lectures, themed music, artwork, games, panelist Q&As, and more. Since 2017, Real Talk Philosophy has hosted 200+ events for 8,000+ guests in multiple cities across Asia and online.
+• Copywriting, Facilitation
+
+Software Developer
+Propertybook.co.zw • Freelance
+Oct 2024 - Jan 2025 • 4 mos Harare, Zimbabwe • On-site
+Developed Coda.io-based Al agent that automates the production of high-quality, SEO/EEAT-optimized content with RAG, prompt chaining, and APls. The system determines keywords, scrapes and analyzes competitor content, queries private metrics DB, incorporates EEAT elements, and executes QA-check. Client generated 450+ articles in 48 hours.
+Demo: Al Article Generator
+• Artificial Intelligence (AI), Coda and +6 skills
+
+Al Software Developer
+Pam Golding Properties • Freelance
+Mar 2024 - Jan 2025 • 11 mos Harare, Zimbabwe • Hybrid
+Engineered a Chrome extension that cut description writing time by 80% (45→9 mins) while improving quality and brand consistency. The system scraped web elements, analyzed property images, determined features/conditions, generated brand-aligned descriptions via RAG system and LLM chains, and integrated seamlessly with agents' existing Property Book platform. Processed 60+ monthly listings with an 87% reduction in operational costs and consistent high-quality outputs.
+凹
+• Chrome Extensions, Al Software Development and +4 skills

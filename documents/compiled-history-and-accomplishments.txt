@@ -1,0 +1,274 @@
+Jonathan Dallas
+jondallasjr@gmail.com • +1 (443) 470-5740 • Baltimore, MD, USA
+ www.jondallasjr.org | linkedin.com/in/jondallasjr/ | github.com/jondallasjr
+
+
+AI Integration Specialist | Low-Code Developer | Project Manager
+
+
+
+Innovative tech leader specializing in AI integration, low-code development, and project management. Expert in creating efficiency-boosting solutions using cutting-edge AI and low-code platforms. Proven track record of reducing costs, increasing productivity, and driving business growth through custom-built, AI-powered applications.
+Core Competencies: AI Integration, Low-Code Development, SEO Optimization, Project Management, Data Analysis, Automation, API Integration
+Key Projects:
+AI-Powered Resume Critique and Rewrite Platform (Resume Bean)
+Developed a fully automated, multi-layered system to produce free resume critiques and paid rewrites, achieving 15% conversion rate and 100% customer satisfaction (30 resumes to date)
+Reduced internal costs per resume rewrite by 87% (from $240 to $30 per)
+Created 58-table relational DB to parse resumes, scrape LinkedIn profiles, scrape relevant job postings, determine ATS keywords, apply condition writing guidelines, generate a resume, and QA
+Integrated a diverse tech stack (OpenAI/Anthropic APIs, Coda.io, pdf.js, custom web scrapers)
+Implemented intelligent prompt chaining to apply specific writing guidelines depending on career level, industry, job relevance, resume quality
+AI Property Description Generator Chrome Extension (Pam Golding Real Estate Agency)
+Reduced property description writing time by 80% (>60 min to <10 min), while improving quality, personalization, and brand consistency
+Developed Google Chrome extension that injects a new button on client’s existing Property Book, scrapes property details and image URLs, sends to Coda.io web app, initiates generation process, and returns a property description in <20 seconds
+Designed automated AI prompt chain system to analyze property images; determine condition, style, and materials; select appropriate writing guidelines; and generate description
+Integrated multiple APIs (Coda, OpenAI Vision, Anthropic) and Google Cloud Functions
+SEO Content Optimization System (Resume Worded)
+Increased average article traffic by 10.5% in 3 months
+Reduced article keyword optimization rewrite time by 80%
+Integrated Google Search Console, ahrefs, and OpenAI API
+Sent task assignments to freelancers automatically via Gmail API
+
+PROFESSIONAL EXPERIENCE
+
+Opening Up AI, Remote	2023 – Present
+Freelance App Developer
+
+Resume Worded, Remote	2023 – Present
+Operations Manager
+Led development and implementation of AI-powered resume services platform
+Managed cross-functional team and oversaw all technical operations
+Real Talk Philosophy, International	2017 – Present
+Founder
+Scaled to 12 chapters across 9 countries, engaging 8,000+ attendees
+Managed team of 12+ franchisees, 25+ employees, and 160+ freelancers
+Increased event attendance from <10 to 130+ per event
+Relay Foods, Baltimore, MD, USA	2014 – 2015
+Marketing Analytics Manager, Relay Foods (2014 - 2015)
+Promoted from Brand Ambassador to Local Sales Manager to Marketing Analytics Manager
+Developed company-wide commission calculation process and analytics reports
+Led team of Regional Analysts, providing training in SQL and data analysis
+Additional Experience:
+Project Manager, Global Ecovillage Network (2021)
+TEFL Teacher, APAX English (2016 - 2020)
+Retail Specialist, Apple (2011 - 2013)
+
+EDUCATION
+
+Towson University, Towson, MD, USA
+B.S. in Theatre
+
+ACHIEVEMENTS & CERTIFICATIONS
+TEDx Speaker
+PADI SCUBA Divemaster
+RYT Yoga Instructor
+freeCodeCamp
+
+SKILLS
+Low-Code Platforms: Coda.io (Guru), Bubble.io, Mendix, Squarespace
+Languages: JavaScript (ES6+), Python, TypeScript, Google Apps Script
+Web Development: Asynchronous JS, RESTful APIs, Chrome Extension APIs
+AI/ML: OpenAI & Anthropic API Integration (incl. Vision and Whisper); Advanced LLM Prompt Engineering, Formulaic Prompt Templating, and Prompt Chaining; NLP; Prompt Version Control
+Markup/Data: HTML/CSS, XML, JSON, Markdown
+Data Analysis: SQL, R, Tableau
+Cloud: AWS, Google Cloud, GDPR compliance
+Project Management: Agile, Scrum, Kanban, Trello, Monday.com, Slack
+SEO/Marketing: Google Search Console, ahrefs, Google Analytics
+Languages: English (Native), German (Intermediate)
+
+--
+
+Testimonials
+“Overall, I am so impressed with how all of these components are working together. You had shared most of the stuff via our Zooms, but it was particularly impressive actually using the system and seeing in real time how everything worked, i.e. emails, pdf conversions/gpt vision, typeforms, etc. VERY well done here. Building an equivalent system like this purely via manual code would be several months of a dedicated dev's effort, so your smarts + no-code knowledge of Coda really showed here and has given me stuff to think about in terms of what's possible.” - Rohan
+
+"Jon exceeded all expectations with his technical expertise and problem-solving abilities. He quickly operationalized our content management process, turning a disorganized manual workflow into an efficient, scalable system that dramatically reduced errors. His ability to grasp complex requirements and build custom programmatic solutions was remarkable. Jon communicated clearly throughout the project, consistently delivered high-quality work on time, and even helped us launch a new AI-powered product. He brings both technical skills and business acumen to every challenge. Highly recommended for any technical operations or AI implementation projects!"
+
+
+--
+
+AI Solutions Architect & Full-Stack Developer 
+$125.00/hr 
+I build custom AI tools for SMBs that deliver rapid ROI through strategic use of LLMs, RAG, low-code, and full-stack development. Recent client successes include: 87% reduction in content production costs for a resume rewriting platform, 80% faster property listing writing for a real estate agency, and 20% organic traffic growth for a property portal.
+
+My development approach maximizes speed and ROI: I rapidly prototype in low-code (Coda.io) to validate multi-step AI workflows, RAG systems, and API integrations with minimal risk and near-immediate feedback, then scale to production-ready React/Node.js applications.
+
+
+Key Projects:
+
+1. AI Agent - Resume Critique and Rewrite | 87% Cost Reduction ($240→$30)
+Built multi-layered AI system achieving 15% free-to-paid conversion rate - LinkedIn/job scraping, ATS keyword analysis, intelligent writing guideline selection, custom prompt chains, and Google Docs API integration. System automatically handles resume parsing, follow-up questions, and tailored rewrites through a sophisticated 58-table relational database architecture.
+
+2. AI Agent - SEO/EEAT Content Generation and Optimization | 450+ Articles in 48 Hours
+Developed Coda.io-based AI agent that automates high-quality EEAT content creation. System determines keywords/intent, analyzes competitors, queries private metrics DB, incorporates EEAT elements, and executes QA-checked prompt chains for optimized output. Client 1 generated 450+ articles in 48 hours. Client 2 increased average article traffic by 20% in 90 days across 100+ optimized articles.
+
+3. Property Description Generator | 80% Time Savings & Brand Consistency
+Chrome extension reducing description time (45→9 mins) using OpenAI Vision for image analysis, RAG for guidelines, and multi-step prompt chains. Seamlessly integrates with Property Book platform, processing 60+ monthly listings with consistent high-quality outputs and brand alignment.
+
+
+Technical Skills:
+- AI/ML: LLM Integration, RAG Systems, Advanced Prompt Engineering/Chaining
+- Full-Stack: React, Node.js, Python, TypeScript + Low-code proficiency
+- Coda Expert: 15K+ monthly invocations across 5 custom packs (OpenAI Vision, PDF.co, Google Image Search, Scrapin API, Claude 3.5+), 20+ enterprise systems
+- Data/Cloud: Scraping, SQL, R, AWS, Google Cloud, GDPR compliance
+- APIs: OpenAI, Anthropic, Google AI, Google Workspace, ahrefs, LinkedIn
+
+
+Leadership & Communication:
+- Scaled international non-profit from 1 to 12 chapters across 9 countries, organizing 263+ events
+- Cross-cultural expertise from managing teams across US, Singapore, Thailand, Vietnam, and South Africa
+- TEDx speaker with proven ability to communicate complex technical concepts
+
+--
+
+My name is Jon Dallas. I technically have a business, Jon Dallas AI, LLC. I live in Chiang Mai, Thailand with my wife Jess (Zimbabwean) and son Bodhi (Zim/US). I am an American. I studied theatre and philosophy at Towson University. Traveled around the Europe and Asia, meditated with forest monks in Thailand and started a philosophy events company that got pretty big (realtalkphilosophy.org. We've had 263 events since 2017 through Vietnam, Thailand, Singapore, Hong Kong, the US, Zimbabwe, South Africa, and online). Covid was tough for us, we shut down. I got married. We had a baby. And Now I'm focusing on my family, and focusing on making money. It's my first time ever working for-profit. All my other significant jobs have been non-profit (Clean Water Action Maryland, Relay Foods (S-Corp), Global Ecovillage Network, Real Talk Philosophy Events, TEFL in Vietnam, FARM). This is the first time I'm doing a project for money. And I want to do it really well. But my main focus is to find the financial freedom to spend at least 20 hours a week on Real Talk. Because I believe it's something the world deeply needs right now.  
+
+I'm getting really into coding and AI. Ask me questions to improve my portfolio and website. 
+
+Type	Name	Contact	Description
+Email	Personal Email 	jondallasjr@gmail.com 	
+Email	Professional Email	jon@realtalkphilosophy.org	
+Phone	US Phone Number	+1 (443) 470-5740	This is a Skype Number. This number can receive/send calls/texts, then forward them to my Skype account which I can access anywhere in the world.
+Phone	Zimbabwe Phone Number	+263 780 017 869	This is a cellphone through Econet. It can receive texts/calls outside of Zimbabwe, but this is expensive. 
+Mail	US Mailing Address	4111 Charbonnet Dr., Jarrettsville, MD, 21084	
+Meeting Scheduler	Calendly for Professional Meetings	http://calendly.com/jon-dallas/30min	
+Meeting Scheduler	Calendly for Friends & Family	https://calendly.com/jon-dallas/friends-family	
+Social	Facebook	https://www.facebook.com/jondallasjr/	
+Social	Instagram	https://www.instagram.com/jondallasjunior	
+Social	CouchSurfing	https://www.couchsurfing.com/people/topnotcher	
+Professional Networking	UpWork	https://www.upwork.com/freelancers/~01fbb04712691c39bf	
+Professional Networking	LinkedIn	https://www.linkedin.com/in/jonathandallasjr/	
+
+Type	Year	Name	Institution
+Public Speaking	2017	TEDx Speaker	TEDx Ba Dinh, Hanoi, Vietnam
+TEFL	2016	TEFL Certificate	TEFL Worldwide Prague
+TEFL	2016	Young Learners Certificate	TEFL Worldwide Prague
+Yoga	2021	RYT 200 Hour Yoga Teacher Certificate	Wonderland Healing Center, Koh Phangan, Thailand
+Yoga	2015	RYT 200 Hour Yoga Teacher Certificate	Charm City Yoga, Baltimore, Maryland
+Theatre	2015	Nominee for Baltimore’s Best Actor	Bad Oracle 
+Theatre	2012	Irene Ryan’s Scholarship Competition Finalist	KCACTF Region II
+Theatre	2012	Theatre Fellowship Scholarship	Towson University
+Boy Scouts	2008	Eagle Scout	Troop 265, Madonna, Maryland
+Religion	2016	Ordained Minister	Universal Life Church
+
+Country	Permanence	Year First Visited	Summary
+Zimbabwe	Lived In	2022	Moved to Zimbabwe with my Harare-native wife. 
+Myanmar	Vacation	2018	Took a visa run from Vietnam with my friend Devon. Threw rocks at trains with two local boys. Made friends with an Burmese ex-mariner who learned English while on the Mississippi river. 
+Vietnam	Lived In	2016	Lived in Vietnam for 4.5. Taught English to children, founded Nerd Nights and the Hanoi Philosophy Forum. 
+Thailand	Lived In	2016	Visited Thailand first on a visa run from Vietnam. Then moved to Thailand in February 2020, just at the start of the COVID pandemic. 
+Cambodia	Vacation	2016	Vacationed in Cambodia with my then-partner Amelia. Visited Angkor Wat. 
+Indonesia	Vacation	2016	Vacationed in Indonesia with my then-partner Amelia. Stayed in an ashram in Ubud. 
+Canada	Lived In	2015	
+Iceland	Short Visit	2013	Explore Reykjavík during a long lay over on my way to Germany from the US. Got to see the fishermen. 
+Czech Republic	Vacation	2013	Stayed in Prague several times with my then-girlfriend Tereza. Then studied at TEFL Worldwide Prague with my then-partner Amelia. 
+Norway	Vacation	2013	
+Denmark	Vacation	2013	
+Sweden	Short Visit	2013	
+England	Short Visit	2013	
+Scotland	Vacation	2013	WWOOFed on a farm in Scotland with my friend Alec during the Edinburgh Fringe Festival. 
+Germany	Trip	2011	First visited Germany in 2010 with the cast of Die Dreigroschenoper (Oldenburg, Hamburg, Berlin).
+In 2011 I returned for a one-month solo trip around Germany, France, and Italy. 
+An ATM ate my credit card, so I had no money. But I had pre-booked my CouchSurfing hosts, pre-booked my Eurail, and brought my ukulele. So I could sleep and travel, but had to busque food and spending money. 
+Fell in love with a Berliner called Sophia and returned to Berlin after one night in Paris and canceled my Italy trip. We traveled to Leipzig together. 
+France	Short Visit	2011	Stayed only for one night before returning to Berlin. 
+Germany	Trip	2010	
+China	Vacation	2008	
+Bermuda	Vacation	2007	
+Bahamas	Vacation	2005	
+Mexico	Short Visit	2003	
+United States	Lived In	1990	
+
+Jon is a meditation guide, ashtanga instructor, yoga philosophy lecturer, mindful music jam leader, and community-builder. Through the nonjudgment, equanimity, and unity of all things found in yoga, Jon has found an invitation to engage with his life more deeply and honestly than he ever believed possible, and is incredibly grateful for the opportunity to share and learn with the community here in Harare. 
+Outside the studio, Jon is a TEDx speaker, musician, animal rights activist, SCUBA Dive Master, and the founder of www.openingup.org⁠, an international social philosophy events organization. Originally from the US, Jon has lived in Canada, Germany, Vietnam, Thailand, and now Zimbabwe. 
+Jon entered his first yoga studio in 2010. “Why don’t you check out the yoga studio?” His mom suggested. “That’s where all the vegans hang out.” Soon after, at an induction ceremony into the Sacred Circle of the Medicine Buddha led by Adhikari Sacha, Jon dedicated his life to the mitigation of suffering. He then started exploring meditation, reading Indian philosophy, and attending monthly new moon purification sweat lodge ceremonies in the Lakota tradition directed by Bob Lightning Flash. 
+Since then Jon has sat two 10-day S. N. Goenka Vipassana meditation courses in Hong Kong and Delaware; sat with the forest monks of Thailand’s Wat Pa Tam Wua; led weekly meditation groups in the US, Thailand, and Vietnam; and taught meditation praxis and yogic philosophy for several Yoga Teacher Training Courses. 
+
+
+Here are some of the projects I've working on: 
+===START projects.tsv===
+Name	Type	Summary	Skills	Key Features
+Bulk File Content Copier	Web App	A secure, client-side tool built with Next.js and React that allows users to copy the contents of multiple text files to their clipboard. It supports browsing directories, filtering files by extension, and efficiently handling large numbers of files while ensuring no data leaves the user's browser.	Next.js,React,TypeScript,Tailwind CSS,File System Access API,Clipboard API	* Secure File Handling: All file processing happens locally, with no data uploaded to servers.
+* Directory Navigation: Users can browse and select files from any directory.
+* Extension Filtering: Files can be filtered by extension for easier selection.
+* Search Functionality: Users can search for specific files within the directory.
+* Keyboard Shortcuts: Supports shortcuts for select all, copy, and escape actions.
+* Progress Tracking: Displays loading progress and currently processing files.
+* Dark Mode Support: Includes a dark mode for better usability in low-light environments.
+Simple Weather App with AI Summary	Web App	A modern weather application built with React and Vite that provides real-time weather data and AI-generated summaries using OpenAI's GPT-4. The app features a clean, responsive UI with detailed weather information, including current conditions, 5-day forecasts, and AI-powered insights. Users can search for cities, toggle between Celsius and Fahrenheit, and view weather trends with interactive charts.	Front End Development,APIs,AI Integration,Data Visualization,Responsive Design,State Management	* Real-time weather data for any city worldwide.
+* AI-generated summaries for current conditions and forecasts.
+* Interactive 5-day forecast charts.
+* Unit conversion between Celsius and Fahrenheit.
+* Responsive and modern UI design.
+AI-Enhanced SEO Content Optimization System	Web App	A web app built on Coda.io that chooses existing published articles with the highest rewrite ROI potential, identifies high-ranking related keywords missing from each article, recommends how to fit these keywords naturally, automatically sends rewrite assignments to freelancers, and tracks before/after SEO metrics using GSC.	SEO,AI Integration,Data Analysis,Data Visualization,Systems Design,Workflow Optimization,Low-Code Development,Content Management,Project Management,Coda.io,OpenAI ChatGPT API,APIs,ahrefs,Google Search Console,Google Apps Script,Anthropic Claude API	* Data-Driven Optimization: Utilizes Google Search Console and ahrefs APIs to identify high-ROI rewrite opportunities. Identifies high-ranking related keywords missing from existing articles.
+* AI-Powered Suggestions: Leverages OpenAI and Anthropic APIs to generate suggestions for naturally incorporating new keywords into existing content.
+* Workflow Automation: Uses Gmail API to automatically assign tasks to freelance copyeditors and publishers. Tracks changes in clicks, rank, and CTR before/after SEO updates via Search Console API.
+* Comprehensive Dashboards: Includes SEO Metrics Monitor, Article Update Dashboard, Article Changelog, Editorial Workflow Manager, and Publisher Dashboard.
+* Content Quality Assurance: Implements automated content guideline checks and keyword optimization validation.
+AI-Assisted Content Brief Generation Tool	Web App	A web app built on Coda.io that simplifies, streamlines, and improves the content brief creation process.
+Integrating OpenAI’s API with manual input, this tool empowers content teams to generate detailed, accurate, and highly effective content briefs.	Low-Code Development,Systems Design,AI Integration,SEO,Project Management,Coda.io,ahrefs,Google Search Console,OpenAI ChatGPT API,Anthropic Claude API	* Content Selection and Assignment: Allows filtering content by status, keyword selection for brief generation, and brief writer assignment. Improved team productivity by streamlining the brief creation process.
+* Keyword Analysis: Integrates with ahrefs Keywords Explorer for comprehensive keyword analysis and opportunity identification, supporting data-driven decision making.
+* AI-Powered Insights Generation: Uses GPT-4 to generate insights on search intent and audience information, enhancing resulting content quality through comprehensive and accurate AI-generated briefs.
+* Competitive Analysis: Automatically generates information about competitor content and differentiation strategies, increasing competitive advantage by offering unique content angles.
+* Interactive Brief Creation: Engages GPT-4 to generate content briefs based on user inputs and AI-generated insights, further improving efficiency and content quality.
+* Content Validation: Checks brief content against established principles for relevance and effectiveness, ensuring high-quality output.
+* Brief Formatting and Refinement: Formats briefs for easy readability and allows refinement based on AI suggestions, enhancing the final product and user experience.
+Task Management System with Time Tracking and Reporting	Web App	An all-encompassing task, project, and time-tracking tool built using low-code in Coda.io. Provides a comprehensive solution to manage tasks, subtasks, projects, and time, enabling team members to prioritize, categorize, and track tasks and their statuses.	Systems Design,Low-Code Development,Workflow Optimization,Time Management,Project Management,Coda.io	* Task Information Management: Allows detailed task entry and updates, including executor, subtasks, links, status, priority, project association, and notes.
+* Easy Time Tracking: Efficient time management with start/stop timer feature, recording hours spent with a single click.
+* Recurring Task Scheduler: Automatically populates user's task list with recurring tasks based on specified frequency.
+* Task Organization: Organizes tasks by priority levels and status labels using intuitive dropdowns and buttons.
+* Card View: Enhances readability with a detailed card-view for individual tasks.
+* Quick Task Addition: Dedicated buttons for swift addition of one-off and recurring tasks.
+* Dynamic Filtering: Customizable task list view with filtering options by name, project, status, executor, or priority.
+* Comprehensive Reporting: Detailed reporting on completed tasks, weekly hours, and active tasks, supporting informed decision-making.
+Resume Rewriter	Web App	Paying clients upload their resume and answer a standard questionnaire. Through a long series of prompt chains, the AI returns a perfectly optimized resume for the client’s target job. 
+
+The AI system:
+
+* Scrapes the client’s LinkedIn profile 
+* Scrapes live job postings related to the Client’s target job. 
+* Generates a list of follow-up questions for specific metrics and experiences related to the target job.
+* Determines which skills and experiences to highlight and which to omit. 
+* Determines which writing guidelines to apply, considering their industry and skill level
+* Generates a perfectly optimized resume 
+* Performs Quality Control on the Resume (accuracy, writing guidelines)
+* Exports to Google Docs
+* Adds comments to the Google Doc with further edit recommendations.	Scrapestack API,SerpApi	
+Resume Critique Email Generator & CRM	Web App	Potential clients enter/upload their email address and resume. Through a long series of prompt chains, the AI system returns a thorough review/critique of their resume with edit recommendations.	Scrapestack API,SerpApi	
+AI Property Description Generator	Chrome Extension	A sophisticated Google Chrome extension that automates and enhances the process of generating real estate property descriptions with AI image analysis and text generation. 	Coda.io,CSS,HTML,Javascript (ES6+),JSON,Google Cloud Functions	1. Advanced Data Scraping: Developed a custom scraper to extract comprehensive property details and image URLs from the agency's Property Book system.
+2. Multi-API Integration:
+  * Utilizes Coda API for data storage and retrieval
+  * Implements OpenAI Vision API for image analysis to determine property attributes
+  * Leverages OpenAI and Anthropic APIs for generating descriptions
+3. Intelligent Prompt Engineering: Employs prompt chaining and context-aware guideline selection based on property specifics.
+4. Quality Assurance: Incorporates an AI error-checking mechanism and provides edit suggestions to agents.
+5. Customization: Collaborated with agencies to create detailed, condition and type-dependent writing guidelines.
+Bulk Photo Uploader to Individual Rows for Categorizing, Tagging, Crediting, Captioning, and Viewing. 	Web App Function	I built this tool for Real Talk Philosophy, an international events organization. This tool is part of a system designed to help local chapter leaders (LCLs) manage events. It allows LCLs to choose an event (dropdown from rows in an Events table), then bulk upload photos/images of the event (via the system finder or drag-and-drop). Then, in one click, all are photos separated onto different rows of a Photos table (one table containing all event photos) and linked to the specific event (and relationally linked to the specific chapter, date, LCL, topic, etc.). The photos can be viewed as a table for easy captioning, categorizing (e.g. performance, presenter, crowd), crediting, tagging (e.g. for team members, performers, or guests), and favoriting. This table is linked several public views (filtered to show the best photos of particular chapter, topic, or tag. Individual photos can be opened revealing detailed information. 	Coda.io	
+AI-Assisted Newsletter Content Generation and Bank	Web App	A user-friendly and efficient tool for managing newsletter content. The Newsletter Content Bank acts as a central repository for new, approved, used, and archived content, facilitating an organized and streamlined content management process.	Systems Design,Low-Code Development,Workflow Optimization,AI Integration,SEO,Content Management,Project Management,Coda.io,OpenAI ChatGPT API,APIs,Anthropic Claude API	
+Content Production Tracking and Dashboards for Team Collaboration and Communication	Web App	Developed to streamline and enhance the efficiency of content production processes for a digital platform. Tracks all stages of content creation, from the inception of a topic/keyword idea to the final publication of a written piece, enabling seamless collaboration among team members and real-time monitoring of progress. 	Systems Design,Low-Code Development,Workflow Optimization,Project Management,Data Visualization,Content Management,Coda.io	
+SEO Metrics Monitor (Custom and Automated)	Web App	An integral part of the content optimization process, this tool equips the content production team with live Google Search Console (GSC) data for all articles tracked internally and enables the team to quickly identify and categorize articles based on performance - well, medium, and poorly performing - and pinpoint those that require updating.	Systems Design,Low-Code Development,Workflow Optimization,SEO,Data Analysis,Data Visualization,Google Apps Script,Google Search Console,XML Extraction,Coda.io,Google Sheets,Google Sheets API	
+Real Talk Philosophy Marketing Website	Website	A dynamic, engaging website for Real Talk Philosophy using Squarespace, custom CSS, HTML, Dropbox, Google Sheets and Google Slides embedding. The site features an integrated blog, a newsletter sign-up, scroll-triggered pop-ups and animations, parallax scrolling, image-text pairing, and YouTube video embeds. Additionally, it incorporates practical elements such as forms, a site-wide logo and footer, a favicon, and social links.	Website Design,Website Development,CSS,HTML,UI/UX Design,Data Embedding,Resource Management,Branding,Squarespace,Dropbox,Google Sheets API,Google Slides API	
+AI End-of-Term Report Generator for Teachers	Web App	This system, developed for educators globally, revolutionizes the task of generating end-of-term reports by leveraging Coda.io and OpenAI's GPT API. It offers a high level of customization, auto-saving, user-specific access, quick duplication, and optional field entries for user flexibility.	Systems Design,Low-Code Development,Workflow Optimization,AI Integration,Coda.io,OpenAI ChatGPT API,APIs,Anthropic Claude API	
+Coda Doc Copier	Web App	Full-stack React application enabling programmatic access to Coda documents via their API. Features table selection, data visualization, and export functionality while maintaining secure API token handling and persistent configurations.	React,REST API,State Management,Error Handling,Data Transformation,Axios,Tailwind CSS,localStorage API,Clipboard API,shadcn/ui	* Secure API Authentication - Encrypted storage and secure handling of API tokens with proper HTTP header implementation
+* Multi-Table Selection - Dynamic loading and selection of available tables from target documents
+* Flexible Data Retrieval - Configurable row count options from column-only to full table extraction
+* JSON Data Visualization - Collapsible, formatted display of retrieved data with syntax highlighting
+* Export Capabilities - One-click export of individual tables or concatenated multi-table data
+* Error Recovery - Comprehensive error handling with user-friendly messages and recovery options
+AI SEO EEAT Content Generation System	Web App	Generates SEO and EEAT-optimized real estate articles through an intelligent multi-step process that analyzes market opportunities, scrapes competitor content, and incorporates location-specific data. The system processes 4,000+ keywords to identify content gaps, automatically researches topics using Google Maps API and property database analysis, and ensures accuracy through AI-powered fact-checking and quality assurance.	Python,BeautifulSoup,OpenAI ChatGPT API,Anthropic Claude API,Google Maps API,Google Search API,Scrapestack API,Coda API,Google Search Console,SEO,EEAT	* Keyword Analysis: Analyzes 4,000+ keywords, breaks them into components and sentiments, prioritizes content based on traffic potential using GSC, ahrefs, and SerpAPI data.
+* Database Integration: Weekly automated scraping of 7,000+ properties, systematically collecting and analyzing property metrics via Coda API integration.
+* Intelligent Content Generation: 20-step automated process including sentiment analysis, search intent determination, location-specific research, competitive analysis, and automated fact-checking with comprehensive QA.
+Custom Database Analysis Dashboard	Web App			
+Custom SEO Keyword Analysis Dashboard	Web App	Identifies keyword component sentiments with highest ROI potential to determine the topic of the next SEO Article.
+
+Analyzes 2500+ keywords that bring clients to www.propertybook.co.zw and its competitors. 
+
+Breaks keywords into keyword components. Compiles components into sentiment groups. Determines sentiments with highest search volume and lowest competition. 	JSON,AI Generated JSON,Formula Generated JSON,Systems Design,Low-Code Development,Workflow Optimization,AI Integration,SEO,Project Management,Data Analysis,Data Visualization,Content Management,HTML,Coda.io,Javascript (ES6+),TypeScript,APIs,Google Search Console,Google Analytics,Web Scraping,OpenAI ChatGPT API,Anthropic Claude API	
+Web Scraper (Property Book)	Python Script	This Python script is designed to scrape real estate property listings from a website and save the extracted details to a TSV file. It uses requests to make HTTP requests and BeautifulSoup to parse HTML content.		
+OpenAI (Optional JSON Mode)	Coda Pack		TypeScript	
+Scrapin Pack	Coda Pack	The Scrapin API Pack allows you to retrieve detailed LinkedIn profile data, including name, headline, location, summary, photo URL, follower count, positions, education, skills, languages, and company information. It simplifies integrating LinkedIn data into your Coda documents, enabling enhanced profile analysis and insights.	TypeScript	
+PDF.co Pack	Coda Pack	Transform PDFs to JPGs effortlessly with our PDF to JPG Converter Pack. Streamline your document management by converting any PDF file in your Coda docs into high-quality JPG images with just a click. Ideal for simplifying sharing, editing, and viewing. Quick, seamless, and secure. 
+Requires an account with pdf.co. 	TypeScript	
+Google Image Search Pack	Coda Pack	Bring the power of Google's vast image repository directly into your Coda documents with the Google Image Search Pack. 
+This pack allows you to easily search and insert images into your Coda docs en masse. Customize your search with parameters like size, type, color, and usage rights to get the most suitable images. 	TypeScript	
+OpenAI Vision Pack	Coda Pack	Extending Coda.io with OpenAI's Vision - https://encord.com/blog/gpt4-vision - a powerhouse tool for creating packs that transcribe notes or journal entries; catalogue books, records, art, recipes, etc.; inventory products; and more. 	TypeScript	
+Audio Transcription with OpenAI Whisper	Python Script	Transcribes the audio of a local or remote file using OpenAI Whisper		
+Add Row to Coda Table via API	Python Script	Adds a row to a targeted Coda table via the Coda API		
+Anthropic Claude Pack	Coda Pack	Building on Peter Cobabe's "Claude by Anthropic" Coda Pack, but with support for 3.5+. 	TypeScript	
+===END projects.tsv===
