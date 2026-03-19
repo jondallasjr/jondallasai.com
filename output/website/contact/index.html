@@ -51,35 +51,7 @@
     .btn-outline { display:inline-flex; align-items:center; gap:0.5rem; background:transparent; color:var(--text); text-decoration:none; padding:0.75rem 1.5rem; border-radius:8px; font-weight:500; font-size:0.9rem; border:1.5px solid var(--border); transition:border-color 0.2s; }
     .btn-outline:hover { border-color:var(--text); }
 
-    /* Contact form */
-    .form-group { margin-bottom:1.25rem; }
-    .form-group label { display:block; font-size:0.8125rem; font-weight:600; color:var(--text); margin-bottom:0.5rem; }
-    .form-group input, .form-group textarea, .form-group select {
-      width:100%; padding:0.75rem 1rem; border-radius:8px; border:1.5px solid var(--border);
-      background:var(--white); color:var(--text); font-family:'Inter',sans-serif; font-size:0.9375rem;
-      outline:none; transition:border-color 0.2s;
-    }
-    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color:var(--amber); }
-    .form-group textarea { height:120px; resize:vertical; }
-    .form-group select { cursor:pointer; }
-    .form-row { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
-
-    .form-submit { width:100%; padding:0.875rem; background:var(--amber); color:var(--white); border:none; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.9375rem; font-weight:600; cursor:pointer; transition:opacity 0.2s; }
-    .form-submit:hover { opacity:0.88; }
-
-    .form-success { display:none; text-align:center; padding:2rem; }
-    .form-success i { font-size:2.5rem; color:var(--sage); display:block; margin-bottom:1rem; }
-    .form-success p { color:var(--muted); }
-
-    /* Newsletter */
-    .newsletter-form { display:flex; flex-direction:column; gap:0.875rem; }
-    .newsletter-form input { padding:0.75rem 1rem; border-radius:8px; border:1.5px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.08); color:var(--white); font-family:'Inter',sans-serif; font-size:0.9rem; outline:none; transition:border-color 0.2s; }
-    .newsletter-form input::placeholder { color:rgba(255,255,255,0.3); }
-    .newsletter-form input:focus { border-color:rgba(255,255,255,0.4); }
-    .newsletter-form button { padding:0.75rem 1.5rem; border-radius:8px; background:var(--amber); color:var(--white); font-family:'Inter',sans-serif; font-size:0.9rem; font-weight:600; border:none; cursor:pointer; transition:opacity 0.2s; }
-    .newsletter-form button:hover { opacity:0.88; }
     .newsletter-note { font-size:0.75rem; color:rgba(255,255,255,0.3); }
-    .newsletter-success { display:none; color:rgba(255,255,255,0.7); font-size:0.9rem; padding:1rem 0; }
 
     /* Links */
     .link-list { list-style:none; display:flex; flex-direction:column; gap:0.875rem; }
@@ -145,44 +117,15 @@
       </ul>
     </div>
 
-    <!-- Contact form -->
+    <!-- Send a message -->
     <div class="contact-card full">
+      <div class="card-icon"><i class="ph ph-chat-dots"></i></div>
       <p class="card-label">Send a message</p>
-      <div id="contact-form-wrap">
-        <form id="contact-form" data-coda-endpoint="">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Your name</label>
-              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email address</label>
-              <input type="email" id="email" name="email" placeholder="jane@company.com" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="project-type">What kind of project? (optional)</label>
-            <select id="project-type" name="project-type">
-              <option value="">Select one...</option>
-              <option>AI Agent / Automation</option>
-              <option>Coda.io System</option>
-              <option>SEO Content System</option>
-              <option>Full-Stack Development</option>
-              <option>Consultation / Strategy</option>
-              <option>Something else</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Tell me about what you're working on..." required></textarea>
-          </div>
-          <button type="submit" class="form-submit">Send message</button>
-        </form>
-      </div>
-      <div class="form-success" id="contact-success">
-        <i class="ph ph-check-circle"></i>
-        <p>Got it! I'll be in touch within 48 hours.</p>
-      </div>
+      <h2>Drop me a line</h2>
+      <p>Tell me about what you're working on and I'll get back to you within 48 hours.</p>
+      <a href="https://coda.io/form/Send-Message_dgZsJiN-fuT" target="_blank" class="btn-amber">
+        <i class="ph ph-paper-plane-tilt"></i> Send a Message
+      </a>
     </div>
 
     <!-- Newsletter -->
@@ -191,14 +134,9 @@
       <p class="card-label">Newsletter</p>
       <h2>Practical AI, weekly.</h2>
       <p>Real implementation stories, tool breakdowns, and honest takes on what's working in AI right now. No fluff, no hype. Unsubscribe anytime.</p>
-      <form class="newsletter-form" id="newsletter-form" data-coda-endpoint="">
-        <input type="text" name="firstName" placeholder="First name" autocomplete="given-name">
-        <input type="email" name="email" placeholder="Email address" required autocomplete="email">
-        <button type="submit">Subscribe</button>
-      </form>
-      <div class="newsletter-success" id="newsletter-success">
-        <i class="ph ph-check-circle"></i> You're in! First issue coming soon.
-      </div>
+      <a href="https://coda.io/form/Sign-Up_dlH63CMk_3u" target="_blank" class="btn-amber" style="margin-top:0.5rem;">
+        <i class="ph ph-envelope-simple"></i> Sign Up
+      </a>
       <p class="newsletter-note" style="margin-top:1rem;">No spam. Unsubscribe with one click.</p>
     </div>
 
@@ -216,33 +154,6 @@
     </div>
   </footer>
 
-  <script>
-    // Contact form
-    document.getElementById('contact-form').addEventListener('submit', async function(e) {
-      e.preventDefault();
-      const endpoint = this.dataset.codaEndpoint;
-      const data = { name: this.name.value, email: this.email.value, projectType: this['project-type'].value, message: this.message.value };
-      if (endpoint) {
-        try { await fetch(endpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data) }); }
-        catch(err) { console.warn(err); }
-      }
-      document.getElementById('contact-form-wrap').style.display = 'none';
-      document.getElementById('contact-success').style.display = 'block';
-    });
-
-    // Newsletter form
-    document.getElementById('newsletter-form').addEventListener('submit', async function(e) {
-      e.preventDefault();
-      const endpoint = this.dataset.codaEndpoint;
-      const data = { firstName: this.firstName.value, email: this.email.value, source: 'contact' };
-      if (endpoint) {
-        try { await fetch(endpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data) }); }
-        catch(err) { console.warn(err); }
-      }
-      this.style.display = 'none';
-      document.getElementById('newsletter-success').style.display = 'block';
-    });
-  </script>
 
 </body>
 </html>

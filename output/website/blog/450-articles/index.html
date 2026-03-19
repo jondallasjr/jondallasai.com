@@ -425,10 +425,9 @@
         <div class="inline-newsletter" id="article-newsletter">
           <h3>Want the full technical breakdown?</h3>
           <p>I write about the systems behind these results — prompt chains, database architectures, QA patterns. Practical AI, weekly.</p>
-          <div class="inline-newsletter-form">
-            <input type="email" placeholder="Your email" autocomplete="email">
-            <button type="button" id="article-nl-btn">Subscribe</button>
-          </div>
+          <a href="https://coda.io/form/Sign-Up_dlH63CMk_3u" target="_blank" style="display:inline-flex; align-items:center; gap:0.5rem; background:var(--amber); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:8px; font-weight:600; font-size:0.9rem; transition:opacity 0.2s;">
+            <i class="ph ph-envelope-simple"></i> Sign Up
+          </a>
         </div>
 
         <!-- Author -->
@@ -483,11 +482,5 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('article-nl-btn').addEventListener('click', function() {
-      var wrap = document.getElementById('article-newsletter');
-      wrap.innerHTML = '<p style="color:rgba(255,255,255,0.7); font-size:0.9375rem; padding:1rem;">You\'re in. First issue coming soon.</p>';
-    });
-  </script>
 </body>
 </html>

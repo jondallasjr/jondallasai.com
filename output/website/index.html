@@ -1111,13 +1111,9 @@
         <p class="section-label">Newsletter</p>
         <h2 class="section-title">Practical AI, weekly.</h2>
         <p class="section-sub">Real implementation stories, tool breakdowns, and honest takes on what's working in AI right now. No fluff, no hype. Unsubscribe anytime.</p>
-        <form class="newsletter-form" id="newsletter-form" data-coda-endpoint="">
-          <input type="email" name="email" placeholder="Your email address" required autocomplete="email">
-          <button type="submit">Subscribe</button>
-        </form>
-        <div class="newsletter-success" id="newsletter-success">
-          <i class="ph ph-check-circle"></i> You're in! First issue coming soon.
-        </div>
+        <a href="https://coda.io/form/Sign-Up_dlH63CMk_3u" target="_blank" class="newsletter-cta" style="display:inline-flex; align-items:center; gap:0.5rem; background:var(--amber); color:#fff; text-decoration:none; padding:0.75rem 1.5rem; border-radius:8px; font-weight:600; font-size:0.9rem; transition:opacity 0.2s; margin-top:0.5rem;">
+          <i class="ph ph-envelope-simple"></i> Sign Up
+        </a>
         <p class="newsletter-note">No spam. Ever. Unsubscribe with one click.</p>
       </div>
     </div>
@@ -1151,30 +1147,6 @@
       document.getElementById('mobile-menu').classList.toggle('open');
     });
 
-    // Newsletter form submission
-    const form = document.getElementById('newsletter-form');
-    const success = document.getElementById('newsletter-success');
-
-    form.addEventListener('submit', async function(e) {
-      e.preventDefault();
-      const endpoint = form.dataset.codaEndpoint;
-      const email = form.querySelector('input[name="email"]').value;
-
-      if (endpoint) {
-        try {
-          await fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, source: 'homepage' })
-          });
-        } catch (err) {
-          console.warn('Newsletter submission error:', err);
-        }
-      }
-
-      form.style.display = 'none';
-      success.style.display = 'block';
-    });
   </script>
 
 </body>
